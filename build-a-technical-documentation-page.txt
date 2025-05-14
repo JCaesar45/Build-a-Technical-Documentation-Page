@@ -1,0 +1,176 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python Basics Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: row;
+    }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100vh;
+      background-color: #2c3e50;
+      color: white;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    #navbar header {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    #main-doc {
+      margin-left: 270px;
+      padding: 20px;
+      max-width: 800px;
+    }
+
+    .main-section {
+      margin-bottom: 40px;
+    }
+
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      font-family: monospace;
+      display: block;
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      #main-doc {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Python Basics</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Modules_and_Imports">Modules and Imports</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a high-level programming language known for its readability.</p>
+      <p>It is widely used in data science, web development, scripting, and automation.</p>
+      <code>print("Hello, World!")</code>
+      <ul>
+        <li>Simple syntax</li>
+        <li>Interpreted language</li>
+        <li>Dynamic typing</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>Variables are used to store data in Python.</p>
+      <p>Python supports several data types like int, float, str, list, and more.</p>
+      <code>x = 10</code>
+      <code>name = "Jordan"</code>
+      <ul>
+        <li>Integer</li>
+        <li>Float</li>
+        <li>String</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Control flow structures include if, elif, and else statements.</p>
+      <p>They allow your program to make decisions based on conditions.</p>
+      <code>
+if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
+else:
+    print("Negative")
+      </code>
+      <ul>
+        <li>if statement</li>
+        <li>elif statement</li>
+        <li>else statement</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code that perform a specific task.</p>
+      <p>You can define your own or use built-in functions.</p>
+      <code>
+def greet(name):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return "Hello " + name
+      </code>
+      <p>Functions help organize your code better and reduce repetition.</p>
+    </section>
+
+    <section class="main-section" id="Modules_and_Imports">
+      <header>Modules and Imports</header>
+      <p>Python modules are files containing Python code.</p>
+      <p>You can import them into other programs using the import statement.</p>
+      <code>import math</code>
+      <code>print(math.sqrt(25))</code>
+      <ul>
+        <li>Standard library modules</li>
+        <li>Custom modules</li>
+        <li>Third-party modules</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
